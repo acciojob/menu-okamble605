@@ -1,12 +1,64 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+.main {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.categories {
+  margin-bottom: 20px;
+}
+
+.categories button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+}
+
+.categories button:hover {
+  background-color: #218838;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item-info h3 {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-info span {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.item-info p {
+  font-size: 0.9rem;
+  color: #555;
 }
